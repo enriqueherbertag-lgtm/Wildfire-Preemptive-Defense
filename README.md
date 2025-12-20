@@ -11,13 +11,26 @@ Transformar la respuesta a incendios de **reactiva** (bomberos, aviones) a **pro
 ## 🏗️ Arquitectura Conceptual del Sistema
 El WPD integra **sensado distribuido, lógica centralizada y actuación física a gran escala**.
 
-```mermaid
 graph TB
-    subgraph “Zona de Peligro (Bosque/Pastizal)”
+    subgraph "Zona de Peligro (Bosque/Pastizal)"
         S1[Sensor Térmico] --> C
         S2[Cámara IA Visión/Térmica] --> C
         S3[Estación Meteorológica] --> C
     end
+
+    subgraph "Central de Control"
+        C[Unidad de Procesamiento<br/>PLC / Computador Industrial] --> D{"Lógica de Decisión<br/>(Confirmación Redundante)"}
+    end
+
+    subgraph "Infraestructura de Defensa"
+        D --> A[Activar Bomba Principal]
+        D --> B[Activar Bomba Auxiliar Failover]
+        A & B --> T[Tubería Principal Enterrada<br/>Acero Galvanizado]
+        T --> N[Red de Torres Aspersoras<br/>(Cada 20m, Altura 2m)]
+    end
+
+    C --> M[Panel de Control Remoto<br/>(Intervención Manual/Override)]
+
 
     subgraph “Central de Control”
         C[Unidad de Procesamiento<br/>PLC / Computador Industrial] --> D{“Lógica de Decisión<br/>(Confirmación Redundante)”}
