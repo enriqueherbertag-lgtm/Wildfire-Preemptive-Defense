@@ -11,8 +11,8 @@ Transformar la respuesta a incendios de **reactiva** (bomberos, aviones) a **pro
 ## 🏗️ Arquitectura Conceptual del Sistema
 El WPD integra **sensado distribuido, lógica centralizada y actuación física a gran escala**.
 
-graph TB
-    subgraph "Zona de Peligro (Bosque/Pastizal)"
+    graph TB
+        subgraph "Zona de Peligro (Bosque/Pastizal)"
         S1[Sensor Térmico] --> C
         S2[Cámara IA Visión/Térmica] --> C
         S3[Estación Meteorológica] --> C
