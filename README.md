@@ -83,7 +83,7 @@ Fase 4: Certificación & Empaquetado - Buscar certificación contra incendios y 
 Contribución y Licencia
 Este es un proyecto de código abierto conceptual. Se buscan colaboraciones con ingenieros civiles, hidráulicos, de control y visión por computadora.
 
-📄 Licencia del Código: Por definir (probablemente GPLv3 o Apache 2.0).
+Licencia del Código: Por definir (probablemente GPLv3 o Apache 2.0).
 
 Cómo Contribuir: Explora la carpeta /docs, abre un Issue para discutir ideas o propón mejoras mediante un Pull Request.
 
