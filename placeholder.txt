@@ -1,8 +1,0 @@
-Contenido en desarrollo.
-
-NOTA LEGAL: Cualquier contenido futuro en esta carpeta estará sujeto a las licencias del proyecto:
-- Código: Apache 2.0 con Restricción Comercial
-- Documentación: CC BY-NC-ND 4.0
-
-Uso comercial prohibido sin acuerdo de licencia.
-Contacto: eaguayo@migst.cl
