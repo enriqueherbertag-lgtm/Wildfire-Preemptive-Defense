@@ -1,5 +1,7 @@
 # Wildfire Preemptive Defense (WPD)
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 **Concepto de Sistema Perimetral Automatizado de Defensa Proactiva contra Incendios Forestales y de Interfaz Urbano-Forestal.**
 
 > **NOTA: ESTE ES UN CONCEPTO EN DESARROLLO - NO UN PRODUCTO COMERCIALIZADO**
