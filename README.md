@@ -1,57 +1,52 @@
 # Wildfire Preemptive Defense (WPD)
 
-**Concepto de Sistema Perimetral Automatizado de Defensa Proactiva contra Incendios Forestales y de Interfaz Urbano-Forestal.**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19393894.svg)](https://doi.org/10.5281/zenodo.19393894)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+[![EN](https://img.shields.io/badge/English-version-blue.svg)](./README.en.md)
 
-> **NOTA: ESTE ES UN CONCEPTO EN DESARROLLO - NO UN PRODUCTO COMERCIALIZADO**
-> Repositorio para documentar, diseñar y prototipar un sistema de infraestructura crítica.
+**Sistema perimetral automatizado de defensa proactiva contra incendios forestales y urbanos.**
 
-## Visión
-Transformar la respuesta a incendios de **reactiva** (bomberos, aviones) a **proactiva**, mediante una red fija perimetral que detecta la amenaza y activa una barrera de agua *antes* de que el fuego llegue a zonas críticas (poblaciones, industrias, bosques valiosos).
+## ¿Qué problema resuelve?
 
-## Licenciamiento y Uso
-Este proyecto se comparte con fines de investigación y avance técnico, bajo un sistema de licenciamiento dual restrictivo:
+La respuesta actual a incendios es reactiva: bomberos, aviones, helicópteros. Cuando llegan, el fuego ya está avanzado. Las poblaciones, industrias y bosques valiosos quedan expuestos.
 
-### Para código y firmware:
-**Licencia Apache 2.0 con Restricción Comercial**  
-- Uso académico y de investigación permitido sin costo.
-- **Uso comercial requiere acuerdo de licencia por escrito.**
+**WPD cambia el paradigma. Es una defensa proactiva.**
 
-### Para documentación, modelos y contenido:
-**Licencia Creative Commons BY-NC-ND 4.0**  
-- Atribución obligatoria.
-- No comercial.
-- Sin obras derivadas.
+## ¿Qué hace?
 
-**Todo uso comercial de esta arquitectura, diseños o conceptos requiere un acuerdo de licencia.**  
-Contacto para licenciamiento: eaguayo@migst.cl
+Una red de estaciones perimetrales fijas que detectan el fuego antes de que llegue a la zona crítica y activan automáticamente una barrera de agua.
 
-## Arquitectura Conceptual del Sistema
-El WPD integra sensado distribuido, lógica centralizada y actuación física a gran escala.
+**Componentes de cada estación:**
+- **Caseta de hormigón** con depósito de agua (enterrado o semi-enterrado).
+- **Poste vertical** (metal u hormigón) que eleva el aspersor.
+- **Aspersor** en la parte superior del poste.
+- **Sensores** (calor, humo, gases) integrados.
+- **IA** para detección y activación automática.
 
-[DIAGRAMA_DE_ARQUITECTURA]
+## ¿Por qué es diferente?
 
-## Componentes Clave (Especificaciones Preliminares)
-*Tabla detallada en `/docs/ARCHITECTURE.md`*
+- **Proactivo**: actúa antes de que el fuego llegue, no después.
+- **Automatizado**: no necesita intervención humana.
+- **Infraestructura fija**: una vez instalado, protege siempre la misma zona.
+- **Escalable**: se pueden instalar cientos de estaciones en un perímetro.
 
-## Estructura del Repositorio
-/docs - Documentación técnica (bajo CC BY-NC-ND 4.0)
-/firmware - Código para prototipos (bajo Apache 2.0 con restricción comercial)
-/hardware - Diseños y planos
-/simulations - Modelos computacionales
-/media - Material gráfico
+## ¿Para quién es?
 
-text
+- Comunidades rurales en zonas de riesgo de incendios.
+- Industrias forestales y agrícolas.
+- Parques nacionales y reservas naturales.
+- Interfaz urbano-forestal (poblaciones junto al bosque).
 
-## Hoja de Ruta de Desarrollo
-1. **Fase 0: Conceptualización** ✅
-2. **Fase 1: Prototipo de Unidad Única**
-3. **Fase 2: Simulaciones & Validación**
-4. **Fase 3: Piloto a Escala Real**
-5. **Fase 4: Certificación & Empaquetado**
+## Estado actual
 
-## Colaboración
-Este proyecto acepta contribuciones técnicas bajo los términos de la guía `CONTRIBUTING.md`. Las colaboraciones no otorgan derechos de propiedad intelectual sobre el concepto central.
+- Concepto definido.
+- Prototipo en evolución.
+- Documentación completa en el repositorio.
 
-**Inventor & Mantenedor:** Enrique Aguayo H.  
-**Contacto:** eaguayo@migst.cl  
-**Repositorio Relacionado:** [OsteoFlux - Sistema de intervención ósea](https://github.com/enriqueherbertag-lgtm/osteoflux)
+## Licencia
+
+Copyright © 2026 Enrique Aguayo. Todos los derechos reservados.
+
+## Autor
+
+Enrique Aguayo H. – Mackiber Labs
